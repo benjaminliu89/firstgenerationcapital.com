@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #17171a;
+  --color-ink-soft: #4a4a52;
+  --color-paper: #fbfaf7;
+  --color-paper-2: #f1efe9;
+  --color-line: #e1ded6;
+  --color-brand: #eb3237;
+  --color-brand-deep: #c0242a;
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+.eyebrow {
+  @apply text-[11px] uppercase tracking-[0.22em] text-ink-soft;
+}
+
+.filter-btn {
+  @apply relative pb-3 text-[12px] uppercase tracking-[0.18em] text-ink-soft transition-colors hover:text-ink;
+}
+.filter-btn::after {
+  content: "";
+  @apply absolute inset-x-0 -bottom-px h-[2px] scale-x-0 bg-brand transition-transform duration-300;
+}
+.filter-btn[aria-pressed="true"] {
+  @apply text-ink;
+}
+.filter-btn[aria-pressed="true"]::after {
+  @apply scale-x-100;
+}
+
+.portfolio-item {
+  animation: rise 0.5s ease both;
+}
+.portfolio-item[hidden] {
+  display: none;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+html.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .portfolio-item {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    animation: none;
+  }
+}

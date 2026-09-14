@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Versa Gripps",
+    "year": 2023,
+    "logo": "/logos/versa-gripps.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "EverySet",
+    "year": 2023,
+    "logo": "/logos/everyset.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Clarion Capital",
+    "year": 2023,
+    "logo": "/logos/clarion-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Omni Recycling",
+    "year": 2022,
+    "logo": "/logos/omni-recycling.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Horangi",
+    "year": 2022,
+    "logo": "/logos/horangi.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Ferne",
+    "year": 2022,
+    "logo": "/logos/ferne.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Finni Health",
+    "year": 2022,
+    "logo": "/logos/finni-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Bay Standard Manufacturing",
+    "year": 2022,
+    "logo": "/logos/bay-standard-manufacturing.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Bamboo Bowls",
+    "year": 2022,
+    "logo": "/logos/bamboo-bowls.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Salt Creek Capital",
+    "year": 2021,
+    "logo": "/logos/salt-creek-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Intudo Ventures",
+    "year": 2021,
+    "logo": "/logos/intudo-ventures.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "FAT Projects Acquisition",
+    "year": 2021,
+    "logo": "/logos/fat-projects-acquisition.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "1984 Ventures",
+    "year": 2021,
+    "logo": "/logos/1984-ventures.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Turntide",
+    "year": 2020,
+    "logo": "/logos/turntide.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Platinum Equity",
+    "year": 2020,
+    "logo": "/logos/platinum-equity.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "MSouth Equity Partners",
+    "year": 2020,
+    "logo": "/logos/msouth-equity-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "I Squared Capital",
+    "year": 2020,
+    "logo": "/logos/i-squared-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Glendower Capital",
+    "year": 2020,
+    "logo": "/logos/glendower-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Ingram Micro",
+    "year": 2020,
+    "logo": "/logos/ingram-micro.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Progression Fund",
+    "year": 2019,
+    "logo": "/logos/progression-fund.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Mighty Health",
+    "year": 2019,
+    "logo": "/logos/mighty-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Foresight Mental Health",
+    "year": 2019,
+    "logo": "/logos/foresight-mental-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Dyal Capital Partners",
+    "year": 2019,
+    "logo": "/logos/dyal-capital-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Canal",
+    "year": 2019,
+    "logo": "/logos/canal.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Blackstone",
+    "year": 2019,
+    "logo": "/logos/blackstone.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Wonderschool",
+    "year": 2018,
+    "logo": "/logos/wonderschool.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "YesVc",
+    "year": 2018,
+    "logo": "/logos/yesvc.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Trusted Health",
+    "year": 2018,
+    "logo": "/logos/trusted-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Verdad",
+    "year": 2018,
+    "logo": "/logos/verdad.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Millenium",
+    "year": 2018,
+    "logo": "/logos/millenium.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Lexington Partners",
+    "year": 2018,
+    "logo": "/logos/lexington-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Legacy Partners",
+    "year": 2018,
+    "logo": "/logos/legacy-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Kearny Jackson",
+    "year": 2018,
+    "logo": "/logos/kearny-jackson.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Grubb Properties",
+    "year": 2018,
+    "logo": "/logos/grubb-properties.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "dydx",
+    "year": 2018,
+    "logo": "/logos/dydx.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "CasaOne",
+    "year": 2018,
+    "logo": "/logos/casaone.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "CafeX",
+    "year": 2018,
+    "logo": "/logos/cafex.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Avantstay",
+    "year": 2018,
+    "logo": "/logos/avantstay.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Afore Capital",
+    "year": 2018,
+    "logo": "/logos/afore-capital.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Barwon",
+    "year": 2018,
+    "logo": "/logos/barwon.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Anacapa Partners",
+    "year": 2018,
+    "logo": "/logos/anacapa-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Anacacia Capital",
+    "year": 2018,
+    "logo": "/logos/anacacia-capital.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Abstract Ventures",
+    "year": 2018,
+    "logo": "/logos/abstract-ventures.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  }
+]

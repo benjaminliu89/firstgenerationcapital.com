@@ -1,0 +1,35 @@
+---
+import Legal from "../layouts/Legal.astro";
+import { site } from "../data/site";
+---
+
+<Legal title="Terms of Use" updated="September 2026">
+  <p>
+    By accessing {site.url}, you agree to these Terms of Use. If you do not agree, please do not use this website.
+  </p>
+  <h2>Information only</h2>
+  <p>
+    This website is provided by {site.legalName} for general information about our activities. Nothing on this site
+    constitutes an offer to sell, or a solicitation of an offer to buy, any security or investment product, nor does it
+    constitute investment, legal, tax or other advice. {site.legalName} manages proprietary family capital and does not
+    accept external investors.
+  </p>
+  <h2>Portfolio references</h2>
+  <p>
+    Companies and funds shown are a selection of current and past investments and are included for illustrative purposes
+    only. Their inclusion does not imply endorsement by those organisations, and past investments are not indicative of
+    future activity.
+  </p>
+  <h2>Intellectual property</h2>
+  <p>
+    Content on this site is owned by {site.legalName} or used with permission. Third-party names and logos are the
+    property of their respective owners.
+  </p>
+  <h2>No warranties</h2>
+  <p>
+    The site is provided "as is" without warranties of any kind. We do not guarantee that information is complete,
+    accurate or current, and accept no liability for loss arising from reliance on it or from use of external links.
+  </p>
+  <h2>Changes</h2>
+  <p>We may update these terms at any time; continued use of the site constitutes acceptance of the current version.</p>
+</Legal>

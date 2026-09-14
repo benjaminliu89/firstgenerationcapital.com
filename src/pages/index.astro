@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+import Portfolio from "../components/Portfolio.astro";
+import { site } from "../data/site";
+
+const pillars = [
+  {
+    title: "Startups",
+    body: "Early-stage direct investments in founders building category-defining software, health and consumer businesses.",
+  },
+  {
+    title: "Private Equity",
+    body: "Commitments to buyout and growth managers with disciplined, operationally-led value creation.",
+  },
+  {
+    title: "Venture Capital Funds",
+    body: "Long-term partnerships with emerging and established venture managers across the US and Asia.",
+  },
+  {
+    title: "Real Estate",
+    body: "Selective exposure to residential and commercial real estate through specialist operators.",
+  },
+  {
+    title: "Hedge Funds",
+    body: "Liquid alternatives that diversify the portfolio and preserve capital through cycles.",
+  },
+];
+---
+
+<Base>
+  <section class="relative overflow-hidden">
+    <div class="mx-auto max-w-6xl px-5 pb-24 pt-24 sm:px-8 sm:pb-32 sm:pt-36">
+      <p class="eyebrow reveal">Single Family Office</p>
+      <h1 class="reveal mt-6 max-w-4xl font-display text-[clamp(2.75rem,8vw,6.5rem)] font-light leading-[0.98] tracking-[-0.01em]">
+        Dedicated to the<br /><span class="text-brand">Next Generation.</span>
+      </h1>
+      <div class="reveal mt-12 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+        <p class="max-w-xl text-lg leading-relaxed text-ink-soft">
+          We are First Generation Capital, a single family office investing in the next generation of technology and businesses.
+        </p>
+        <a
+          href="#portfolio"
+          class="group inline-flex items-center gap-3 text-[12px] uppercase tracking-[0.18em]"
+        >
+          View portfolio
+          <span class="grid h-9 w-9 place-items-center rounded-full border border-ink transition group-hover:bg-ink group-hover:text-paper">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="scroll-mt-16 border-t border-line">
+    <div class="mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 sm:py-32 md:grid-cols-[1fr_1.6fr]">
+      <div class="reveal">
+        <p class="eyebrow">About</p>
+        <h2 class="mt-3 font-display text-3xl font-light leading-tight sm:text-4xl">Patient capital, long horizons.</h2>
+      </div>
+      <div class="reveal space-y-6 text-[17px] leading-relaxed text-ink-soft">
+        <p>
+          First Generation Capital invests permanent family capital with no external investors and no fixed fund
+          life. That independence lets us back exceptional founders and managers for the long term and stay
+          constructive through market cycles.
+        </p>
+        <p>
+          Our portfolio spans direct investments in early-stage companies and commitments to private equity,
+          venture, real estate and hedge fund managers across North America, Asia and Australia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-t border-line bg-paper-2">
+    <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+      <p class="eyebrow reveal">How we invest</p>
+      <ul class="mt-10 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-5">
+        {pillars.map((p, i) => (
+          <li class="reveal bg-paper-2 p-7" style={`transition-delay:${i * 60}ms`}>
+            <p class="font-display text-2xl font-light text-brand">0{i + 1}</p>
+            <h3 class="mt-6 text-[15px] font-medium">{p.title}</h3>
+            <p class="mt-3 text-[14px] leading-relaxed text-ink-soft">{p.body}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <Portfolio />
+
+  <section class="border-t border-line">
+    <div class="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-24 sm:px-8 sm:py-32 md:flex-row md:items-center md:justify-between">
+      <h2 class="reveal max-w-xl font-display text-3xl font-light leading-tight sm:text-4xl">
+        Building something for the next generation? We'd like to hear from you.
+      </h2>
+      <a
+        href={site.contactUrl}
+        target="_blank"
+        rel="noopener"
+        class="reveal inline-flex shrink-0 items-center gap-3 rounded-full bg-ink px-7 py-4 text-[12px] uppercase tracking-[0.18em] text-paper transition-colors hover:bg-brand"
+      >
+        Contact us ↗
+      </a>
+    </div>
+  </section>
+</Base>

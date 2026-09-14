@@ -6,23 +6,23 @@ import { site } from "../data/site";
 const pillars = [
   {
     title: "Startups",
-    body: "Early-stage direct investments in founders building category-defining software, health and consumer businesses.",
+    body: "Small direct cheques into early-stage companies, usually alongside a lead investor we know.",
   },
   {
     title: "Private Equity",
-    body: "Commitments to buyout and growth managers with disciplined, operationally-led value creation.",
+    body: "Limited partner commitments to buyout, growth and secondaries funds.",
   },
   {
     title: "Venture Capital Funds",
-    body: "Long-term partnerships with emerging and established venture managers across the US and Asia.",
+    body: "Limited partner commitments to seed and early-stage venture funds, including first-time managers.",
   },
   {
     title: "Real Estate",
-    body: "Selective exposure to residential and commercial real estate through specialist operators.",
+    body: "Commitments to residential and commercial real estate funds run by specialist operators.",
   },
   {
     title: "Hedge Funds",
-    body: "Liquid alternatives that diversify the portfolio and preserve capital through cycles.",
+    body: "A small number of liquid strategies that sit alongside the private portfolio.",
   },
 ];
 ---
@@ -30,13 +30,14 @@ const pillars = [
 <Base>
   <section class="relative overflow-hidden">
     <div class="mx-auto max-w-6xl px-5 pb-24 pt-24 sm:px-8 sm:pb-32 sm:pt-36">
-      <p class="eyebrow reveal">Single Family Office</p>
-      <h1 class="reveal mt-6 max-w-4xl font-display text-[clamp(2.75rem,8vw,6.5rem)] font-light leading-[0.98] tracking-[-0.01em]">
-        Dedicated to the<br /><span class="text-brand">Next Generation.</span>
+      <p class="eyebrow reveal">First Generation Capital · Single family office</p>
+      <h1 class="reveal mt-6 max-w-4xl font-display text-[clamp(2.75rem,7vw,5.5rem)] font-light leading-[1.02] tracking-[-0.01em]">
+        A family office<br />investing for the <span class="text-brand">long term.</span>
       </h1>
       <div class="reveal mt-12 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
         <p class="max-w-xl text-lg leading-relaxed text-ink-soft">
-          We are First Generation Capital, a single family office investing in the next generation of technology and businesses.
+          Since 2018 we have backed early-stage companies and committed to venture, private equity, real estate and
+          hedge fund managers. We invest our own capital, and we keep things simple.
         </p>
         <a
           href="#portfolio"
@@ -53,17 +54,22 @@ const pillars = [
     <div class="mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 sm:py-32 md:grid-cols-[1fr_1.6fr]">
       <div class="reveal">
         <p class="eyebrow">About</p>
-        <h2 class="mt-3 font-display text-3xl font-light leading-tight sm:text-4xl">Patient capital, long horizons.</h2>
+        <h2 class="mt-3 font-display text-3xl font-light leading-tight sm:text-4xl">Who we are</h2>
       </div>
       <div class="reveal space-y-6 text-[17px] leading-relaxed text-ink-soft">
         <p>
-          First Generation Capital invests permanent family capital with no external investors and no fixed fund
-          life. That independence lets us back exceptional founders and managers for the long term and stay
-          constructive through market cycles.
+          First Generation Capital is a single family office. We manage one family's capital, with no outside
+          investors and no fund to raise, so we can hold investments for as long as they make sense.
         </p>
         <p>
-          Our portfolio spans direct investments in early-stage companies and commitments to private equity,
-          venture, real estate and hedge fund managers across North America, Asia and Australia.
+          We are a small team and a small allocator. Most of our portfolio is commitments to fund managers we have
+          gotten to know over time; the rest is direct investments in early-stage companies, usually alongside
+          people we already work with.
+        </p>
+        <p>
+          The name is a reminder. Most family wealth doesn't survive three generations. We would rather keep
+          investing the way a first generation does: patient, curious, and willing to back people who are still
+          early.
         </p>
       </div>
     </div>
@@ -71,7 +77,7 @@ const pillars = [
 
   <section class="border-t border-line bg-paper-2">
     <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
-      <p class="eyebrow reveal">How we invest</p>
+      <p class="eyebrow reveal">What we invest in</p>
       <ul class="mt-10 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-5">
         {pillars.map((p, i) => (
           <li class="reveal bg-paper-2 p-7" style={`transition-delay:${i * 60}ms`}>
@@ -89,7 +95,7 @@ const pillars = [
   <section class="border-t border-line">
     <div class="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-24 sm:px-8 sm:py-32 md:flex-row md:items-center md:justify-between">
       <h2 class="reveal max-w-xl font-display text-3xl font-light leading-tight sm:text-4xl">
-        Building something for the next generation? We'd like to hear from you.
+        Raising a fund or a round and think we might be a fit? Get in touch.
       </h2>
       <a
         href={site.contactUrl}

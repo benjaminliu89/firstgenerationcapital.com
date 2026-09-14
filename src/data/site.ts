@@ -1,9 +1,9 @@
 export const site = {
   name: "First Generation Capital",
   legalName: "First Generation Capital Limited",
-  tagline: "Dedicated to the Next Generation.",
+  tagline: "A family office investing for the long term.",
   description:
-    "First Generation Capital is a single family office investing in the next generation of technology and businesses across startups, private equity, venture capital, real estate and hedge funds.",
+    "First Generation Capital is a single family office. Since 2018 we have invested in early-stage companies and committed to venture, private equity, real estate and hedge fund managers.",
   url: "https://www.firstgenerationcapital.com",
   contactUrl: "https://form.typeform.com/to/F9qWDmmj",
   linkedin: "https://www.linkedin.com/company/firstgenerationcapital/",

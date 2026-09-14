@@ -342,5 +342,173 @@
     "category": "venture-capital",
     "status": "Active",
     "url": ""
+  },
+  {
+    "name": "Mango Medical",
+    "year": 2026,
+    "logo": "/logos/mango-medical.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://mangomedical.io"
+  },
+  {
+    "name": "Origami Robotics",
+    "year": 2026,
+    "logo": "/logos/origami-robotics.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.origami-robotics.com"
+  },
+  {
+    "name": "Corvera",
+    "year": 2026,
+    "logo": "/logos/corvera.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://corvera.ai"
+  },
+  {
+    "name": "FullSeam",
+    "year": 2026,
+    "logo": "/logos/fullseam.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://fullseam.com"
+  },
+  {
+    "name": "Maywood",
+    "year": 2026,
+    "logo": "/logos/maywood.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://maywoodai.com"
+  },
+  {
+    "name": "Lucent",
+    "year": 2026,
+    "logo": "/logos/lucent.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://lucenthq.com"
+  },
+  {
+    "name": "PatientDesk",
+    "year": 2026,
+    "logo": "/logos/patientdesk.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://patientdesk.ai"
+  },
+  {
+    "name": "Gojiberry",
+    "year": 2026,
+    "logo": "/logos/gojiberry.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.gojiberry.ai"
+  },
+  {
+    "name": "InstaAgent",
+    "year": 2026,
+    "logo": "/logos/instaagent.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://instaagent.com"
+  },
+  {
+    "name": "Transload",
+    "year": 2026,
+    "logo": "/logos/transload.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.transload.ai"
+  },
+  {
+    "name": "Plena Health",
+    "year": 2026,
+    "logo": "/logos/plena.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.plena.health"
+  },
+  {
+    "name": "WithAI",
+    "year": 2026,
+    "logo": "/logos/withai.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://withai.nyc"
+  },
+  {
+    "name": "Lime",
+    "year": null,
+    "logo": "/logos/lime.svg",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.li.me"
+  },
+  {
+    "name": "Roam",
+    "year": null,
+    "logo": "/logos/roam.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://ro.am"
+  },
+  {
+    "name": "HeadSpin",
+    "year": null,
+    "logo": "/logos/headspin.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.headspin.io"
+  },
+  {
+    "name": "Jiobit",
+    "year": null,
+    "logo": "/logos/jiobit.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.jiobit.com"
+  },
+  {
+    "name": "Naked Labs",
+    "year": null,
+    "logo": "/logos/naked-labs.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://nakedlabs.com"
+  },
+  {
+    "name": "Atoms",
+    "year": null,
+    "logo": "/logos/atoms.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://atoms.com"
+  },
+  {
+    "name": "Reins",
+    "year": null,
+    "logo": "/logos/reins.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Epirus",
+    "year": null,
+    "logo": "/logos/epirus.svg",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.epirusinc.com"
+  },
+  {
+    "name": "EasyMate",
+    "year": null,
+    "logo": "/logos/easymate.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://easymate.ai"
   }
 ]

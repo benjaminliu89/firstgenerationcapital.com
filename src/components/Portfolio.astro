@@ -2,9 +2,11 @@
 import portfolio from "../data/portfolio.json";
 import { categories, type PortfolioItem } from "../data/site";
 
-const items = (portfolio as PortfolioItem[]).slice().sort((a, b) => b.year - a.year || a.name.localeCompare(b.name));
+const items = (portfolio as PortfolioItem[])
+  .slice()
+  .sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || a.name.localeCompare(b.name));
 const counts = Object.fromEntries(categories.map((c) => [c.id, c.id === "all" ? items.length : items.filter((i) => i.category === c.id).length]));
-const years = items.map((i) => i.year);
+const years = items.map((i) => i.year).filter((y): y is number => y != null);
 const span = `${Math.min(...years)}–${Math.max(...years)}`;
 ---
 
@@ -43,7 +45,7 @@ const span = `${Math.min(...years)}–${Math.max(...years)}`;
       {items.map((item) => {
         const Tag = item.url ? "a" : "div";
         return (
-          <li class="portfolio-item border-b border-r border-paper/10" data-category={item.category} data-year={item.year}>
+          <li class="portfolio-item border-b border-r border-paper/10" data-category={item.category} data-year={item.year ?? undefined}>
             <Tag
               href={item.url || undefined}
               target={item.url ? "_blank" : undefined}
@@ -63,7 +65,7 @@ const span = `${Math.min(...years)}–${Math.max(...years)}`;
                 <div>
                   <p class="text-[15px] font-medium leading-tight">{item.name}</p>
                   <p class="mt-1 text-[12px] uppercase tracking-[0.14em] text-paper/45">
-                    {item.status === "Exited" ? "Exited" : "Invested"} {item.year}
+                    {item.status === "Exited" ? "Exited" : "Invested"}{item.year ? ` ${item.year}` : ""}
                   </p>
                 </div>
                 {item.url && (

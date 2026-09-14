@@ -22,7 +22,7 @@ export type CategoryId = Exclude<(typeof categories)[number]["id"], "all">;
 
 export type PortfolioItem = {
   name: string;
-  year: number;
+  year: number | null;
   logo: string;
   category: CategoryId;
   status: "Active" | "Exited";

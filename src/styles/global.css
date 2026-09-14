@@ -16,6 +16,19 @@ html {
   scroll-behavior: smooth;
 }
 
+html.dark {
+  --color-ink: #f3f1ec;
+  --color-ink-soft: #a3a2a8;
+  --color-paper: #0d0d0f;
+  --color-paper-2: #141416;
+  --color-line: #26262b;
+  color-scheme: dark;
+}
+html.dark #portfolio {
+  --color-ink: #050506;
+  --color-paper: #fbfaf7;
+}
+
 body {
   @apply bg-paper text-ink font-sans antialiased;
 }
@@ -72,4 +85,8 @@ html.js .reveal.is-visible {
     transition: none;
     animation: none;
   }
+}
+
+html.dark .footer-logo {
+  filter: invert(1) hue-rotate(180deg);
 }

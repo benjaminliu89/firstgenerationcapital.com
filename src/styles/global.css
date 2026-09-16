@@ -174,3 +174,30 @@ html.hero-center .hero-sub p {
   text-align: center;
   max-width: 34rem;
 }
+
+/* review-only: ?hero=a — original layout (no hero mark, neutral eyebrow) on white */
+html.hero-a {
+  --color-paper: #ffffff;
+  --color-paper-2: #f7f7f5;
+  --color-line: #e7e7e4;
+  --color-ink: #17171a;
+  --color-ink-soft: #4a4a52;
+}
+html.hero-a .hero-inner {
+  display: block;
+}
+html.hero-a .hero-mark {
+  display: none;
+}
+html.hero-a .hero-inner h1 {
+  font-size: clamp(2.75rem, 7vw, 5.5rem);
+}
+html.hero-a .hero-sub {
+  margin-top: 3rem;
+}
+html.hero-a .eyebrow {
+  color: var(--color-ink-soft);
+}
+html.hero-a section h2.font-display {
+  font-size: revert-layer;
+}

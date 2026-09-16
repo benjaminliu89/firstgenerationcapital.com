@@ -208,3 +208,20 @@ html.hero-white {
   --color-paper-2: #f7f5f1;
   --color-line: #e7e3db;
 }
+
+/* review-only: ?hero=grey - pale warm grey */
+html.hero-grey {
+  --color-paper: #f5f5f2;
+  --color-paper-2: #ecece7;
+  --color-line: #dcdcd5;
+}
+
+/* review-only: ?hero=split - cream hero, white body */
+html.hero-split {
+  --color-paper: #ffffff;
+  --color-paper-2: #f7f5f1;
+  --color-line: #e7e3db;
+}
+html.hero-split #hero {
+  background: #f6f1e8;
+}

@@ -32,12 +32,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={new URL("/og.png", Astro.site)} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#fbfaf7" />
+    <meta name="theme-color" content="#f6f1e8" />
     <script is:inline>
       document.documentElement.classList.add("js");
       const q = new URLSearchParams(location.search);
       if (q.get("theme") === "dark") document.documentElement.classList.add("dark");
-      if (q.get("hero")) document.documentElement.classList.add("hero-" + q.get("hero"));
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

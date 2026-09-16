@@ -13,16 +13,8 @@ const link = (hash: string) => (isHome ? hash : `/${hash}`);
       </span>
     </a>
     <nav class="flex items-center gap-6 text-[12px] uppercase tracking-[0.18em]">
-      <a href={link("#about")} class="hidden text-ink-soft transition-colors hover:text-ink sm:block">About</a>
+      <a href={link("#about")} class="text-ink-soft transition-colors hover:text-ink">About</a>
       <a href={link("#portfolio")} class="text-ink-soft transition-colors hover:text-ink">Portfolio</a>
-      <a
-        href={site.contactUrl}
-        target="_blank"
-        rel="noopener"
-        class="rounded-full bg-ink px-5 py-2.5 text-paper transition-colors hover:bg-brand"
-      >
-        Contact
-      </a>
     </nav>
   </div>
 </header>

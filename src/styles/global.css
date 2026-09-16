@@ -33,6 +33,13 @@ body {
   @apply bg-paper text-ink font-sans antialiased;
 }
 
+.wordmark {
+  @apply font-display font-light leading-none tracking-[-0.01em];
+}
+.wordmark b {
+  @apply font-medium;
+}
+
 .eyebrow {
   @apply text-[11px] uppercase tracking-[0.22em] text-ink-soft;
 }
@@ -87,6 +94,6 @@ html.js .reveal.is-visible {
   }
 }
 
-html.dark .footer-logo {
-  filter: invert(1) hue-rotate(180deg);
+html.dark .brand-mark {
+  content: url("/brand/tree-dark.png");
 }

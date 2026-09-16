@@ -201,3 +201,10 @@ html.hero-a .eyebrow {
 html.hero-a section h2.font-display {
   font-size: revert-layer;
 }
+
+/* review-only: ?hero=white - default layout on pure white */
+html.hero-white {
+  --color-paper: #ffffff;
+  --color-paper-2: #f7f5f1;
+  --color-line: #e7e3db;
+}

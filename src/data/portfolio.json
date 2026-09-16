@@ -432,12 +432,12 @@
     "url": "https://www.plena.health"
   },
   {
-    "name": "WithAI",
+    "name": "Multiplier",
     "year": 2026,
-    "logo": "/logos/withai.png",
+    "logo": "/logos/multiplier.png",
     "category": "startups",
     "status": "Active",
-    "url": "https://withai.nyc"
+    "url": "https://multiplier.ai"
   },
   {
     "name": "Lime",
@@ -510,5 +510,45 @@
     "category": "startups",
     "status": "Active",
     "url": "https://easymate.ai"
+  },
+  {
+    "name": "Atinum Capital Partners",
+    "year": null,
+    "logo": "/logos/atinum.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": "https://www.atinuminvest.co.kr"
+  },
+  {
+    "name": "Neuco",
+    "year": null,
+    "logo": "",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Ben Bryant YC Access Fund",
+    "year": null,
+    "logo": "/logos/yc-access.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Renaissance Technologies",
+    "year": null,
+    "logo": "/logos/renaissance.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": "https://www.rentec.com"
+  },
+  {
+    "name": "Bridgewater Associates",
+    "year": null,
+    "logo": "/logos/bridgewater.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": "https://www.bridgewater.com"
   }
 ]

@@ -10,7 +10,7 @@ const groups = categories
   .map((c) => ({ ...c, items: items.filter((i) => i.category === c.id) }))
   .filter((g) => g.items.length);
 const years = items.map((i) => i.year).filter((y): y is number => y != null);
-const span = `${Math.min(...years)}–${Math.max(...years)}`;
+const span = `${Math.min(...years)} to ${Math.max(...years)}`;
 ---
 
 <section id="portfolio" class="scroll-mt-16 border-t border-line bg-paper">
@@ -43,7 +43,7 @@ const span = `${Math.min(...years)}–${Math.max(...years)}`;
                   <span>{i.name}</span>
                 )}
                 <span class="shrink-0 text-[12px] tabular-nums text-ink-soft">
-                  {i.status === "Exited" ? "Exited · " : ""}{i.year ?? "—"}
+                  {i.status === "Exited" ? "Exited · " : ""}{i.year ?? ""}
                 </span>
               </li>
             ))}

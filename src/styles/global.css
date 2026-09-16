@@ -142,7 +142,7 @@ section h2.font-display {
   color: var(--color-brand);
 }
 
-/* review-only: ?hero=center — white background, large centred mark */
+/* review-only: ?hero=center - white background, large centred mark */
 html.hero-center {
   --color-paper: #ffffff;
   --color-paper-2: #f7f5f1;
@@ -175,7 +175,7 @@ html.hero-center .hero-sub p {
   max-width: 34rem;
 }
 
-/* review-only: ?hero=a — original layout (no hero mark, neutral eyebrow) on white */
+/* review-only: ?hero=a - original layout (no hero mark, neutral eyebrow) on white */
 html.hero-a {
   --color-paper: #ffffff;
   --color-paper-2: #f7f7f5;

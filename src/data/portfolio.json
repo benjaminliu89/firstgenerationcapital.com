@@ -558,5 +558,29 @@
     "category": "startups",
     "status": "Active",
     "url": "https://findarbor.com"
+  },
+  {
+    "name": "KinKera",
+    "year": 2024,
+    "logo": "",
+    "category": "real-estate",
+    "status": "Active",
+    "url": "https://kinkera.com.au"
+  },
+  {
+    "name": "Vantage Vehicle International",
+    "year": 2025,
+    "logo": "",
+    "category": "private-equity",
+    "status": "Active",
+    "url": "https://www.vantagevehicle.com"
+  },
+  {
+    "name": "Blue Owl Digital Infrastructure",
+    "year": 2025,
+    "logo": "",
+    "category": "private-equity",
+    "status": "Active",
+    "url": "https://www.blueowl.com"
   }
 ]

@@ -441,7 +441,7 @@
   },
   {
     "name": "Lime",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/lime.svg",
     "category": "startups",
     "status": "Active",
@@ -449,7 +449,7 @@
   },
   {
     "name": "Roam",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/roam.png",
     "category": "startups",
     "status": "Active",
@@ -457,7 +457,7 @@
   },
   {
     "name": "HeadSpin",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/headspin.png",
     "category": "startups",
     "status": "Active",
@@ -465,7 +465,7 @@
   },
   {
     "name": "Jiobit",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/jiobit.png",
     "category": "startups",
     "status": "Active",
@@ -473,7 +473,7 @@
   },
   {
     "name": "Naked Labs",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/naked-labs.png",
     "category": "startups",
     "status": "Active",
@@ -481,7 +481,7 @@
   },
   {
     "name": "Atoms",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/atoms.png",
     "category": "startups",
     "status": "Active",
@@ -489,7 +489,7 @@
   },
   {
     "name": "Reins",
-    "year": null,
+    "year": 2025,
     "logo": "/logos/reins.svg",
     "category": "startups",
     "status": "Active",
@@ -497,7 +497,7 @@
   },
   {
     "name": "Epirus",
-    "year": null,
+    "year": 2024,
     "logo": "/logos/epirus.svg",
     "category": "startups",
     "status": "Active",
@@ -505,7 +505,7 @@
   },
   {
     "name": "EasyMate",
-    "year": null,
+    "year": 2025,
     "logo": "/logos/easymate.png",
     "category": "startups",
     "status": "Active",
@@ -550,5 +550,13 @@
     "category": "hedge-funds",
     "status": "Active",
     "url": "https://www.bridgewater.com"
+  },
+  {
+    "name": "Arbor",
+    "year": 2025,
+    "logo": "",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
   }
 ]

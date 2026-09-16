@@ -35,7 +35,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="theme-color" content="#fbfaf7" />
     <script is:inline>
       document.documentElement.classList.add("js");
-      if (new URLSearchParams(location.search).get("theme") === "dark") document.documentElement.classList.add("dark");
+      const q = new URLSearchParams(location.search);
+      if (q.get("theme") === "dark") document.documentElement.classList.add("dark");
+      if (q.get("style")) document.documentElement.classList.add("style-" + q.get("style"));
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

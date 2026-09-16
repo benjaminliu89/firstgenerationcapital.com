@@ -97,3 +97,140 @@ html.js .reveal.is-visible {
 html.dark .brand-mark {
   content: url("/brand/tree-dark.png");
 }
+
+/* ---- review-only style variants (?style=b|c|d) ---- */
+
+/* B · editorial white: centred hero with large mark */
+html.style-b {
+  --color-paper: #ffffff;
+  --color-paper-2: #f7f7f5;
+  --color-line: #e7e7e4;
+  --color-ink: #121214;
+}
+html.style-b .hero-inner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+html.style-b .hero-mark {
+  display: block;
+  width: 168px;
+  height: 168px;
+  margin-bottom: 3rem;
+}
+html.style-b .hero-inner h1 {
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+}
+html.style-b .hero-sub {
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+html.style-b .hero-sub p {
+  text-align: center;
+  max-width: 34rem;
+}
+html.style-b #portfolio {
+  --color-ink: #121214;
+}
+
+/* C · warm gallery: warmer cream, mark beside the headline, roomier type */
+html.style-c {
+  --color-paper: #f6f1e8;
+  --color-paper-2: #eee7da;
+  --color-line: #ddd3c2;
+  --color-ink: #1d1916;
+  --color-ink-soft: #5d554b;
+}
+html.style-c .hero-inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "eyebrow mark" "h1 mark" "sub sub";
+  column-gap: 4rem;
+  align-items: start;
+}
+html.style-c .hero-inner .eyebrow {
+  grid-area: eyebrow;
+}
+html.style-c .hero-inner h1 {
+  grid-area: h1;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+}
+html.style-c .hero-mark {
+  grid-area: mark;
+  display: block;
+  width: 240px;
+  height: 240px;
+  align-self: center;
+}
+html.style-c .hero-sub {
+  grid-area: sub;
+  margin-top: 4rem;
+}
+html.style-c #about h2,
+html.style-c section h2.font-display {
+  font-size: 2.75rem;
+}
+html.style-c #portfolio {
+  --color-paper: #f6f1e8;
+}
+html.style-c .eyebrow {
+  color: var(--color-brand);
+}
+
+/* D · ledger: white, hairline grid, mono eyebrows, compact hero */
+html.style-d {
+  --color-paper: #ffffff;
+  --color-paper-2: #ffffff;
+  --color-line: #d9d9d6;
+  --color-ink: #0f0f10;
+  --color-ink-soft: #55555b;
+}
+html.style-d .eyebrow,
+html.style-d .filter-btn,
+html.style-d nav,
+html.style-d .hero-sub a {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+html.style-d .hero-inner {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  column-gap: 2.5rem;
+  grid-template-areas: "mark eyebrow" "mark h1" ". sub";
+}
+html.style-d .hero-mark {
+  grid-area: mark;
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin-top: 0.4rem;
+}
+html.style-d .hero-inner .eyebrow {
+  grid-area: eyebrow;
+}
+html.style-d .hero-inner h1 {
+  grid-area: h1;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  margin-top: 1rem;
+}
+html.style-d .hero-sub {
+  grid-area: sub;
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--color-line);
+  padding-top: 2rem;
+}
+html.style-d section ul.grid.gap-px {
+  border: 1px solid var(--color-line);
+}
+html.style-d #portfolio {
+  --color-ink: #0f0f10;
+}
+html.style-d .rounded-full {
+  border-radius: 2px;
+}

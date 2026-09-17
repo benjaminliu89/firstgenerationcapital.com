@@ -513,7 +513,7 @@
   },
   {
     "name": "Atinum Capital Partners",
-    "year": null,
+    "year": 2026,
     "logo": "/logos/atinum.png",
     "category": "venture-capital",
     "status": "Active",
@@ -521,15 +521,15 @@
   },
   {
     "name": "Neuco",
-    "year": null,
+    "year": 2025,
     "logo": "",
     "category": "venture-capital",
     "status": "Active",
     "url": ""
   },
   {
-    "name": "Ben Bryant YC Access Fund",
-    "year": null,
+    "name": "Access Fund",
+    "year": 2026,
     "logo": "/logos/yc-access.png",
     "category": "venture-capital",
     "status": "Active",

@@ -101,7 +101,7 @@ html.dark .brand-mark {
 /* hero: mark beside the headline on wide screens, stacked above it on narrow */
 .hero-inner {
   display: grid;
-  grid-template-areas: "mark" "eyebrow" "h1" "sub";
+  grid-template-areas: "mark" "h1" "sub";
   align-items: start;
 }
 .hero-inner .eyebrow {
@@ -125,7 +125,7 @@ html.dark .brand-mark {
 @media (min-width: 768px) {
   .hero-inner {
     grid-template-columns: 1fr auto;
-    grid-template-areas: "eyebrow mark" "h1 mark" "sub sub";
+    grid-template-areas: "h1 mark" "sub sub";
     column-gap: 4rem;
   }
   .hero-mark {

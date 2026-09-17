@@ -37,6 +37,6 @@ Requires Node 22+.
 ## Deployment / DNS
 
 - GitHub → Settings → Pages → Source: **GitHub Actions**; Custom domain: `www.firstgenerationcapital.com`; Enforce HTTPS.
-- DNS (GoDaddy): `www` CNAME → `<owner>.github.io`; apex `@` A records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (and AAAA `2606:50c0:8000::153` … `8003::153`).
+- DNS (GoDaddy): `www` CNAME → `benjaminliu89.github.io`; apex `@` A records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (and AAAA `2606:50c0:8000::153` … `8003::153`).
 
 `legacy/` contains a static mirror of the previous Webflow site for reference.

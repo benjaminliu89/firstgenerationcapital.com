@@ -32,7 +32,6 @@ const span = `${Math.min(...years)} to ${Math.max(...years)}`;
         <div id={`portfolio-${g.id}`} class="reveal grid gap-6 border-t border-line pt-8 md:grid-cols-[220px_1fr]">
           <div>
             <h3 class="font-display text-2xl font-light">{g.label}</h3>
-            <p class="mt-1 text-[13px] text-ink-soft">{g.items.length}</p>
           </div>
           <ul class="grid gap-x-10 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
             {g.items.map((i) => (

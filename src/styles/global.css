@@ -95,7 +95,7 @@ html.js .reveal.is-visible {
 }
 
 html.dark .brand-mark {
-  content: url("/brand/tree-dark.png");
+  content: url("/brand/tree-dark.svg");
 }
 
 /* hero: mark beside the headline on wide screens, stacked above it on narrow */

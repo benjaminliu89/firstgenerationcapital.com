@@ -537,7 +537,7 @@
   },
   {
     "name": "Renaissance Technologies",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/renaissance.png",
     "category": "hedge-funds",
     "status": "Active",
@@ -545,7 +545,7 @@
   },
   {
     "name": "Bridgewater Associates",
-    "year": null,
+    "year": 2018,
     "logo": "/logos/bridgewater.png",
     "category": "hedge-funds",
     "status": "Active",

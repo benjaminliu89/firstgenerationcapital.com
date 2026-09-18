@@ -53,7 +53,7 @@
     "logo": "/logos/finni-health.png",
     "category": "startups",
     "status": "Active",
-    "url": ""
+    "url": "https://www.finnihealth.com"
   },
   {
     "name": "Bay Standard Manufacturing",
@@ -109,7 +109,7 @@
     "logo": "/logos/turntide.png",
     "category": "startups",
     "status": "Active",
-    "url": ""
+    "url": "https://turntide.com"
   },
   {
     "name": "Platinum Equity",
@@ -173,7 +173,7 @@
     "logo": "/logos/foresight-mental-health.png",
     "category": "startups",
     "status": "Active",
-    "url": ""
+    "url": "https://foresightmentalhealth.com"
   },
   {
     "name": "Dyal Capital Partners",
@@ -189,7 +189,7 @@
     "logo": "/logos/canal.png",
     "category": "startups",
     "status": "Active",
-    "url": ""
+    "url": "https://www.canalasset.com"
   },
   {
     "name": "Blackstone",
@@ -453,7 +453,7 @@
     "logo": "/logos/roam.png",
     "category": "startups",
     "status": "Active",
-    "url": "https://ro.am"
+    "url": "https://www.roam.co"
   },
   {
     "name": "HeadSpin",

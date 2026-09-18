@@ -13,7 +13,7 @@ export const categories = [
   { id: "all", label: "All" },
   { id: "startups", label: "Startups" },
   { id: "private-equity", label: "Private Equity" },
-  { id: "venture-capital", label: "Venture Capital Funds" },
+  { id: "venture-capital", label: "Venture Capital" },
   { id: "real-estate", label: "Real Estate" },
   { id: "hedge-funds", label: "Hedge Funds" },
 ] as const;

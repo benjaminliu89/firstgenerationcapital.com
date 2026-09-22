@@ -312,7 +312,15 @@
     "url": ""
   },
   {
-    "name": "Barwon",
+    "name": "Barwon Healthcare Property",
+    "year": 2018,
+    "logo": "/logos/barwon.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Barwon First Mortgage",
     "year": 2018,
     "logo": "/logos/barwon.png",
     "category": "real-estate",

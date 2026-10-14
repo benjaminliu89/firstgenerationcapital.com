@@ -10,15 +10,12 @@ const groups = categories
   .filter((c) => c.id !== "all")
   .map((c) => ({ ...c, items: items.filter((i) => i.category === c.id) }))
   .filter((g) => g.items.length);
-const years = items.map((i) => i.year).filter((y): y is number => y != null);
-const span = `${Math.min(...years)} to ${Math.max(...years)}`;
 ---
 
 <section id="portfolio" class="scroll-mt-16 border-t border-line bg-paper">
   <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
     <div class="reveal">
-      <p class="eyebrow">Portfolio · {span}</p>
-      <h2 class="mt-3 font-display text-4xl font-light leading-[1.05] sm:text-5xl">
+      <h2 class="font-display text-4xl font-light leading-[1.05] sm:text-5xl">
         Portfolio
       </h2>
     </div>

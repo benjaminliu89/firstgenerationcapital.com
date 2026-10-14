@@ -30,6 +30,7 @@ body {
 /* hero: mark beside the headline on wide screens, stacked above it on narrow */
 .hero-inner {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   grid-template-areas: "mark" "h1" "sub";
   align-items: start;
 }
@@ -50,7 +51,7 @@ body {
 }
 @media (min-width: 768px) {
   .hero-inner {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: minmax(0, 1fr) auto;
     grid-template-areas: "h1 mark" "sub mark";
     column-gap: 4rem;
   }

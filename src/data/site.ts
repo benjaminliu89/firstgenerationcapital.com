@@ -9,31 +9,11 @@ export const site = {
 };
 
 export const categories = [
-  {
-    id: "startups",
-    label: "Startups",
-    description: "Small direct cheques into early-stage companies, usually alongside a lead investor we know.",
-  },
-  {
-    id: "private-equity",
-    label: "Private Equity",
-    description: "Fund commitments and co-investments across buyout, growth and secondaries.",
-  },
-  {
-    id: "venture-capital",
-    label: "Venture Capital",
-    description: "Limited partner commitments to seed and early-stage venture funds, including first-time managers.",
-  },
-  {
-    id: "real-estate",
-    label: "Real Estate",
-    description: "Residential and commercial property, through specialist funds and a small number of direct positions.",
-  },
-  {
-    id: "hedge-funds",
-    label: "Hedge Funds",
-    description: "A small allocation to liquid strategies alongside the private portfolio.",
-  },
+  { id: "startups", label: "Startups" },
+  { id: "private-equity", label: "Private Equity" },
+  { id: "venture-capital", label: "Venture Capital" },
+  { id: "real-estate", label: "Real Estate" },
+  { id: "hedge-funds", label: "Hedge Funds" },
 ] as const;
 
 export type CategoryId = (typeof categories)[number]["id"];

@@ -448,6 +448,54 @@
     "url": "https://multiplier.ai"
   },
   {
+    "name": "Praxis Robotics",
+    "year": 2026,
+    "logo": "/logos/praxis-robotics.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.praxisrobotics.io"
+  },
+  {
+    "name": "Radley",
+    "year": 2026,
+    "logo": "/logos/radley.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://radley.health"
+  },
+  {
+    "name": "Familiar Labs",
+    "year": 2026,
+    "logo": "",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://familiarlabs.ai"
+  },
+  {
+    "name": "Avoca Systems",
+    "year": 2026,
+    "logo": "/logos/avoca-systems.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://avocasystems.com"
+  },
+  {
+    "name": "NebuSec",
+    "year": 2026,
+    "logo": "/logos/nebusec.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://nebusec.ai"
+  },
+  {
+    "name": "Atomarine",
+    "year": 2026,
+    "logo": "/logos/atomarine.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://atomarine.co"
+  },
+  {
     "name": "Lime",
     "year": 2018,
     "logo": "/logos/lime.svg",

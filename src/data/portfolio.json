@@ -1,453 +1,5 @@
 [
   {
-    "name": "Versa Gripps",
-    "year": 2023,
-    "logo": "/logos/versa-gripps.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "EverySet",
-    "year": 2023,
-    "logo": "/logos/everyset.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Clarion Capital",
-    "year": 2023,
-    "logo": "/logos/clarion-capital.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Omni Recycling",
-    "year": 2022,
-    "logo": "/logos/omni-recycling.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Horangi",
-    "year": 2022,
-    "logo": "/logos/horangi.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Ferne",
-    "year": 2022,
-    "logo": "/logos/ferne.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Finni Health",
-    "year": 2022,
-    "logo": "/logos/finni-health.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://www.finnihealth.com"
-  },
-  {
-    "name": "Bay Standard Manufacturing",
-    "year": 2022,
-    "logo": "/logos/bay-standard-manufacturing.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Bamboo Bowls",
-    "year": 2022,
-    "logo": "/logos/bamboo-bowls.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Salt Creek Capital",
-    "year": 2021,
-    "logo": "/logos/salt-creek-capital.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Intudo Ventures",
-    "year": 2021,
-    "logo": "/logos/intudo-ventures.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "FAT Projects Acquisition",
-    "year": 2021,
-    "logo": "/logos/fat-projects-acquisition.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "1984 Ventures",
-    "year": 2021,
-    "logo": "/logos/1984-ventures.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Turntide",
-    "year": 2020,
-    "logo": "/logos/turntide.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://turntide.com"
-  },
-  {
-    "name": "Platinum Equity",
-    "year": 2020,
-    "logo": "/logos/platinum-equity.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "MSouth Equity Partners",
-    "year": 2020,
-    "logo": "/logos/msouth-equity-partners.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "I Squared Capital",
-    "year": 2020,
-    "logo": "/logos/i-squared-capital.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Glendower Capital",
-    "year": 2020,
-    "logo": "/logos/glendower-capital.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Ingram Micro",
-    "year": 2020,
-    "logo": "/logos/ingram-micro.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Progression Fund",
-    "year": 2019,
-    "logo": "/logos/progression-fund.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Mighty Health",
-    "year": 2019,
-    "logo": "/logos/mighty-health.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Foresight Mental Health",
-    "year": 2019,
-    "logo": "/logos/foresight-mental-health.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://foresightmentalhealth.com"
-  },
-  {
-    "name": "Dyal Capital Partners",
-    "year": 2019,
-    "logo": "/logos/dyal-capital-partners.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Canal",
-    "year": 2019,
-    "logo": "/logos/canal.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://www.canalasset.com"
-  },
-  {
-    "name": "Blackstone",
-    "year": 2019,
-    "logo": "/logos/blackstone.png",
-    "category": "real-estate",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Wonderschool",
-    "year": 2018,
-    "logo": "/logos/wonderschool.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "YesVc",
-    "year": 2018,
-    "logo": "/logos/yesvc.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Trusted Health",
-    "year": 2018,
-    "logo": "/logos/trusted-health.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Verdad",
-    "year": 2018,
-    "logo": "/logos/verdad.png",
-    "category": "hedge-funds",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Millennium",
-    "year": 2018,
-    "logo": "/logos/millenium.png",
-    "category": "hedge-funds",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Lexington Partners",
-    "year": 2018,
-    "logo": "/logos/lexington-partners.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Legacy Partners",
-    "year": 2018,
-    "logo": "/logos/legacy-partners.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Kearny Jackson",
-    "year": 2018,
-    "logo": "/logos/kearny-jackson.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Grubb Properties",
-    "year": 2018,
-    "logo": "/logos/grubb-properties.png",
-    "category": "real-estate",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "dydx",
-    "year": 2018,
-    "logo": "/logos/dydx.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "CasaOne",
-    "year": 2018,
-    "logo": "/logos/casaone.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "CafeX",
-    "year": 2018,
-    "logo": "/logos/cafex.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Avantstay",
-    "year": 2018,
-    "logo": "/logos/avantstay.png",
-    "category": "startups",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Afore Capital",
-    "year": 2018,
-    "logo": "/logos/afore-capital.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Barwon Healthcare Property",
-    "year": 2019,
-    "logo": "/logos/barwon.png",
-    "category": "real-estate",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Barwon First Mortgage",
-    "year": 2018,
-    "logo": "/logos/barwon.png",
-    "category": "real-estate",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Anacapa Partners",
-    "year": 2018,
-    "logo": "/logos/anacapa-partners.png",
-    "category": "private-equity",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Anacacia Capital",
-    "year": 2018,
-    "logo": "/logos/anacacia-capital.png",
-    "category": "hedge-funds",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Abstract Ventures",
-    "year": 2018,
-    "logo": "/logos/abstract-ventures.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Mango Medical",
-    "year": 2026,
-    "logo": "/logos/mango-medical.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://mangomedical.io"
-  },
-  {
-    "name": "Origami Robotics",
-    "year": 2026,
-    "logo": "/logos/origami-robotics.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://www.origami-robotics.com"
-  },
-  {
-    "name": "Corvera",
-    "year": 2026,
-    "logo": "/logos/corvera.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://corvera.ai"
-  },
-  {
-    "name": "FullSeam",
-    "year": 2026,
-    "logo": "/logos/fullseam.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://fullseam.com"
-  },
-  {
-    "name": "Maywood",
-    "year": 2026,
-    "logo": "/logos/maywood.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://maywoodai.com"
-  },
-  {
-    "name": "Lucent",
-    "year": 2026,
-    "logo": "/logos/lucent.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://lucenthq.com"
-  },
-  {
-    "name": "PatientDesk",
-    "year": 2026,
-    "logo": "/logos/patientdesk.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://patientdesk.ai"
-  },
-  {
-    "name": "Gojiberry",
-    "year": 2026,
-    "logo": "/logos/gojiberry.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://www.gojiberry.ai"
-  },
-  {
-    "name": "InstaAgent",
-    "year": 2026,
-    "logo": "/logos/instaagent.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://instaagent.com"
-  },
-  {
-    "name": "Transload",
-    "year": 2026,
-    "logo": "/logos/transload.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://www.transload.ai"
-  },
-  {
-    "name": "Plena Health",
-    "year": 2026,
-    "logo": "/logos/plena.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://www.plena.health"
-  },
-  {
-    "name": "Multiplier",
-    "year": 2026,
-    "logo": "/logos/multiplier.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://multiplier.ai"
-  },
-  {
     "name": "Praxis Robotics",
     "year": 2026,
     "logo": "/logos/praxis-robotics.png",
@@ -480,7 +32,7 @@
     "url": "https://avocasystems.com"
   },
   {
-    "name": "NebuSec",
+    "name": "Nebula Security",
     "year": 2026,
     "logo": "/logos/nebusec.png",
     "category": "startups",
@@ -496,52 +48,156 @@
     "url": "https://atomarine.co"
   },
   {
-    "name": "Lime",
-    "year": 2018,
-    "logo": "/logos/lime.svg",
-    "category": "startups",
+    "name": "Access Fund",
+    "year": 2026,
+    "logo": "/logos/yc-access.png",
+    "category": "venture-capital",
     "status": "Active",
-    "url": "https://www.li.me"
+    "url": ""
   },
   {
-    "name": "Roam",
-    "year": 2018,
-    "logo": "/logos/roam.png",
-    "category": "startups",
+    "name": "Atinum Capital Partners",
+    "year": 2026,
+    "logo": "/logos/atinum.png",
+    "category": "venture-capital",
     "status": "Active",
-    "url": "https://www.roam.co"
+    "url": "https://www.atinuminvest.co.kr"
   },
   {
-    "name": "HeadSpin",
-    "year": 2018,
-    "logo": "/logos/headspin.png",
+    "name": "Corvera",
+    "year": 2026,
+    "logo": "/logos/corvera.png",
     "category": "startups",
     "status": "Active",
-    "url": "https://www.headspin.io"
+    "url": "https://corvera.ai"
   },
   {
-    "name": "Jiobit",
-    "year": 2018,
-    "logo": "/logos/jiobit.png",
+    "name": "FullSeam",
+    "year": 2026,
+    "logo": "/logos/fullseam.png",
     "category": "startups",
     "status": "Active",
-    "url": "https://www.jiobit.com"
+    "url": "https://fullseam.com"
   },
   {
-    "name": "Naked Labs",
-    "year": 2018,
-    "logo": "/logos/naked-labs.png",
+    "name": "Gojiberry",
+    "year": 2026,
+    "logo": "/logos/gojiberry.png",
     "category": "startups",
     "status": "Active",
-    "url": "https://nakedlabs.com"
+    "url": "https://www.gojiberry.ai"
   },
   {
-    "name": "Atoms",
-    "year": 2018,
-    "logo": "/logos/atoms.png",
+    "name": "InstaAgent",
+    "year": 2026,
+    "logo": "/logos/instaagent.png",
     "category": "startups",
     "status": "Active",
-    "url": "https://atoms.com"
+    "url": "https://instaagent.com"
+  },
+  {
+    "name": "Lucent",
+    "year": 2026,
+    "logo": "/logos/lucent.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://lucenthq.com"
+  },
+  {
+    "name": "Mango Medical",
+    "year": 2026,
+    "logo": "/logos/mango-medical.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://mangomedical.io"
+  },
+  {
+    "name": "Maywood",
+    "year": 2026,
+    "logo": "/logos/maywood.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://maywoodai.com"
+  },
+  {
+    "name": "Multiplier",
+    "year": 2026,
+    "logo": "/logos/multiplier.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://multiplier.ai"
+  },
+  {
+    "name": "Origami Robotics",
+    "year": 2026,
+    "logo": "/logos/origami-robotics.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.origami-robotics.com"
+  },
+  {
+    "name": "PatientDesk",
+    "year": 2026,
+    "logo": "/logos/patientdesk.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://patientdesk.ai"
+  },
+  {
+    "name": "Plena Health",
+    "year": 2026,
+    "logo": "/logos/plena.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.plena.health"
+  },
+  {
+    "name": "Transload",
+    "year": 2026,
+    "logo": "/logos/transload.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.transload.ai"
+  },
+  {
+    "name": "Analog Partners",
+    "year": 2025,
+    "logo": "",
+    "category": "private-equity",
+    "status": "Active",
+    "url": "https://www.analogpartners.com"
+  },
+  {
+    "name": "Arbor",
+    "year": 2025,
+    "logo": "",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://findarbor.com"
+  },
+  {
+    "name": "Blue Owl Digital Infrastructure",
+    "year": 2025,
+    "logo": "",
+    "category": "private-equity",
+    "status": "Active",
+    "url": "https://www.blueowl.com"
+  },
+  {
+    "name": "EasyMate",
+    "year": 2025,
+    "logo": "/logos/easymate.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://easymate.ai"
+  },
+  {
+    "name": "Neuco",
+    "year": 2025,
+    "logo": "",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
   },
   {
     "name": "Reins",
@@ -560,68 +216,28 @@
     "url": "https://www.epirusinc.com"
   },
   {
-    "name": "EasyMate",
-    "year": 2025,
-    "logo": "/logos/easymate.png",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://easymate.ai"
-  },
-  {
-    "name": "Atinum Capital Partners",
-    "year": 2026,
-    "logo": "/logos/atinum.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": "https://www.atinuminvest.co.kr"
-  },
-  {
-    "name": "Neuco",
-    "year": 2025,
-    "logo": "",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Access Fund",
-    "year": 2026,
-    "logo": "/logos/yc-access.png",
-    "category": "venture-capital",
-    "status": "Active",
-    "url": ""
-  },
-  {
-    "name": "Renaissance Technologies",
-    "year": 2018,
-    "logo": "/logos/renaissance.png",
-    "category": "hedge-funds",
-    "status": "Active",
-    "url": "https://www.rentec.com"
-  },
-  {
-    "name": "Bridgewater Associates",
-    "year": 2018,
-    "logo": "/logos/bridgewater.png",
-    "category": "hedge-funds",
-    "status": "Active",
-    "url": "https://www.bridgewater.com"
-  },
-  {
-    "name": "Arbor",
-    "year": 2025,
-    "logo": "",
-    "category": "startups",
-    "status": "Active",
-    "url": "https://findarbor.com"
-  },
-  {
     "name": "KinKera",
     "year": 2024,
     "logo": "",
     "category": "real-estate",
     "status": "Active",
     "url": "https://kinkera.com.au"
+  },
+  {
+    "name": "Clarion Capital",
+    "year": 2023,
+    "logo": "/logos/clarion-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "EverySet",
+    "year": 2023,
+    "logo": "/logos/everyset.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
   },
   {
     "name": "Vantage Vehicle International",
@@ -632,19 +248,403 @@
     "url": "https://www.vantagevehicle.com"
   },
   {
-    "name": "Blue Owl Digital Infrastructure",
-    "year": 2025,
-    "logo": "",
+    "name": "Versa Gripps",
+    "year": 2023,
+    "logo": "/logos/versa-gripps.png",
     "category": "private-equity",
     "status": "Active",
-    "url": "https://www.blueowl.com"
+    "url": ""
   },
   {
-    "name": "Analog Partners",
-    "year": 2025,
-    "logo": "",
+    "name": "Bamboo Bowls",
+    "year": 2022,
+    "logo": "/logos/bamboo-bowls.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Bay Standard Manufacturing",
+    "year": 2022,
+    "logo": "/logos/bay-standard-manufacturing.png",
     "category": "private-equity",
     "status": "Active",
-    "url": "https://www.analogpartners.com"
+    "url": ""
+  },
+  {
+    "name": "Ferne",
+    "year": 2022,
+    "logo": "/logos/ferne.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Finni Health",
+    "year": 2022,
+    "logo": "/logos/finni-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.finnihealth.com"
+  },
+  {
+    "name": "Horangi",
+    "year": 2022,
+    "logo": "/logos/horangi.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Omni Recycling",
+    "year": 2022,
+    "logo": "/logos/omni-recycling.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "1984 Ventures",
+    "year": 2021,
+    "logo": "/logos/1984-ventures.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "FAT Projects Acquisition",
+    "year": 2021,
+    "logo": "/logos/fat-projects-acquisition.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Intudo Ventures",
+    "year": 2021,
+    "logo": "/logos/intudo-ventures.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Salt Creek Capital",
+    "year": 2021,
+    "logo": "/logos/salt-creek-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Glendower Capital",
+    "year": 2020,
+    "logo": "/logos/glendower-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "I Squared Capital",
+    "year": 2020,
+    "logo": "/logos/i-squared-capital.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Ingram Micro",
+    "year": 2020,
+    "logo": "/logos/ingram-micro.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "MSouth Equity Partners",
+    "year": 2020,
+    "logo": "/logos/msouth-equity-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Platinum Equity",
+    "year": 2020,
+    "logo": "/logos/platinum-equity.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Turntide",
+    "year": 2020,
+    "logo": "/logos/turntide.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://turntide.com"
+  },
+  {
+    "name": "Barwon Healthcare Property",
+    "year": 2019,
+    "logo": "/logos/barwon.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Blackstone",
+    "year": 2019,
+    "logo": "/logos/blackstone.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Canal",
+    "year": 2019,
+    "logo": "/logos/canal.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.canalasset.com"
+  },
+  {
+    "name": "Dyal Capital Partners",
+    "year": 2019,
+    "logo": "/logos/dyal-capital-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Foresight Mental Health",
+    "year": 2019,
+    "logo": "/logos/foresight-mental-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://foresightmentalhealth.com"
+  },
+  {
+    "name": "Mighty Health",
+    "year": 2019,
+    "logo": "/logos/mighty-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Progression Fund",
+    "year": 2019,
+    "logo": "/logos/progression-fund.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Abstract Ventures",
+    "year": 2018,
+    "logo": "/logos/abstract-ventures.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Afore Capital",
+    "year": 2018,
+    "logo": "/logos/afore-capital.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Anacacia Capital",
+    "year": 2018,
+    "logo": "/logos/anacacia-capital.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Anacapa Partners",
+    "year": 2018,
+    "logo": "/logos/anacapa-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Atoms",
+    "year": 2018,
+    "logo": "/logos/atoms.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://atoms.com"
+  },
+  {
+    "name": "Avantstay",
+    "year": 2018,
+    "logo": "/logos/avantstay.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Barwon First Mortgage",
+    "year": 2018,
+    "logo": "/logos/barwon.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Bridgewater Associates",
+    "year": 2018,
+    "logo": "/logos/bridgewater.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": "https://www.bridgewater.com"
+  },
+  {
+    "name": "CafeX",
+    "year": 2018,
+    "logo": "/logos/cafex.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "CasaOne",
+    "year": 2018,
+    "logo": "/logos/casaone.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "dydx",
+    "year": 2018,
+    "logo": "/logos/dydx.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Grubb Properties",
+    "year": 2018,
+    "logo": "/logos/grubb-properties.png",
+    "category": "real-estate",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "HeadSpin",
+    "year": 2018,
+    "logo": "/logos/headspin.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.headspin.io"
+  },
+  {
+    "name": "Jiobit",
+    "year": 2018,
+    "logo": "/logos/jiobit.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.jiobit.com"
+  },
+  {
+    "name": "Kearny Jackson",
+    "year": 2018,
+    "logo": "/logos/kearny-jackson.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Legacy Partners",
+    "year": 2018,
+    "logo": "/logos/legacy-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Lexington Partners",
+    "year": 2018,
+    "logo": "/logos/lexington-partners.png",
+    "category": "private-equity",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Lime",
+    "year": 2018,
+    "logo": "/logos/lime.svg",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.li.me"
+  },
+  {
+    "name": "Millennium",
+    "year": 2018,
+    "logo": "/logos/millenium.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Naked Labs",
+    "year": 2018,
+    "logo": "/logos/naked-labs.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://nakedlabs.com"
+  },
+  {
+    "name": "Renaissance Technologies",
+    "year": 2018,
+    "logo": "/logos/renaissance.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": "https://www.rentec.com"
+  },
+  {
+    "name": "Roam",
+    "year": 2018,
+    "logo": "/logos/roam.png",
+    "category": "startups",
+    "status": "Active",
+    "url": "https://www.roam.co"
+  },
+  {
+    "name": "Trusted Health",
+    "year": 2018,
+    "logo": "/logos/trusted-health.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Verdad",
+    "year": 2018,
+    "logo": "/logos/verdad.png",
+    "category": "hedge-funds",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "Wonderschool",
+    "year": 2018,
+    "logo": "/logos/wonderschool.png",
+    "category": "startups",
+    "status": "Active",
+    "url": ""
+  },
+  {
+    "name": "YesVc",
+    "year": 2018,
+    "logo": "/logos/yesvc.png",
+    "category": "venture-capital",
+    "status": "Active",
+    "url": ""
   }
 ]

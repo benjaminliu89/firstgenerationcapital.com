@@ -20,6 +20,7 @@ Static site for First Generation Capital, built with [Astro](https://astro.build
 
    `category` is one of `startups`, `private-equity`, `venture-capital`, `real-estate`, `hedge-funds`.
    `status` is `Active` or `Exited`. `url` is optional (`""` to omit the link).
+   Within a year, entries show in the order they appear in the file, so put the most recent investment first.
 3. Commit and push (or open a PR). The site rebuilds and deploys in ~1 minute.
 
 Copy, links and categories live in `src/data/site.ts` and `src/pages/index.astro`.

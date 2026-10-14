@@ -3,8 +3,9 @@ import portfolio from "../data/portfolio.json";
 import { categories, type PortfolioItem } from "../data/site";
 
 const items = (portfolio as PortfolioItem[])
-  .slice()
-  .sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || a.name.localeCompare(b.name));
+  .map((item, index) => ({ item, index }))
+  .sort((a, b) => (b.item.year ?? 0) - (a.item.year ?? 0) || a.index - b.index)
+  .map(({ item }) => item);
 const groups = categories
   .filter((c) => c.id !== "all")
   .map((c) => ({ ...c, items: items.filter((i) => i.category === c.id) }))
@@ -28,9 +29,9 @@ const span = `${Math.min(...years)} to ${Math.max(...years)}`;
           <div>
             <h3 class="font-display text-2xl font-light">{g.label}</h3>
           </div>
-          <ul class="gap-x-10 sm:columns-2 lg:columns-3">
+          <ul class="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
             {g.items.map((i) => (
-              <li class="mb-3 flex break-inside-avoid items-baseline justify-between gap-3 border-b border-line/70 pb-3 text-[15px]">
+              <li class="mb-3 flex min-w-0 items-baseline justify-between gap-3 border-b border-line/70 pb-3 text-[15px]">
                 {i.url ? (
                   <a href={i.url} target="_blank" rel="noopener" class="truncate transition-colors hover:text-brand">{i.name}</a>
                 ) : (

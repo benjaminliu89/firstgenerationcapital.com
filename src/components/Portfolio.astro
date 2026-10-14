@@ -6,40 +6,58 @@ const items = (portfolio as PortfolioItem[])
   .map((item, index) => ({ item, index }))
   .sort((a, b) => (b.item.year ?? 0) - (a.item.year ?? 0) || a.index - b.index)
   .map(({ item }) => item);
+
+const byYear = (list: PortfolioItem[]) => {
+  const years: { year: number | null; items: PortfolioItem[] }[] = [];
+  for (const i of list) {
+    const last = years.at(-1);
+    if (last && last.year === i.year) last.items.push(i);
+    else years.push({ year: i.year, items: [i] });
+  }
+  return years;
+};
+
 const groups = categories
-  .filter((c) => c.id !== "all")
-  .map((c) => ({ ...c, items: items.filter((i) => i.category === c.id) }))
-  .filter((g) => g.items.length);
+  .map((c) => ({ ...c, years: byYear(items.filter((i) => i.category === c.id)) }))
+  .filter((g) => g.years.length);
 ---
 
 <section id="portfolio" class="scroll-mt-16 border-t border-line bg-paper">
   <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
-    <div class="reveal">
-      <h2 class="font-display text-4xl font-light leading-[1.05] sm:text-5xl">
-        Portfolio
-      </h2>
-    </div>
+    <h2 class="font-display text-3xl font-light leading-[1.05] sm:text-5xl">Portfolio</h2>
 
-    <div class="mt-16 space-y-14">
+    <div class="mt-14 space-y-14">
       {groups.map((g) => (
-        <div id={`portfolio-${g.id}`} class="reveal grid gap-6 border-t border-line pt-8 md:grid-cols-[220px_1fr]">
+        <div id={`portfolio-${g.id}`} class="grid gap-6 border-t border-line pt-8 md:grid-cols-[220px_1fr]">
           <div>
             <h3 class="font-display text-2xl font-light">{g.label}</h3>
+            <p class="mt-2 max-w-[200px] text-[13px] leading-relaxed text-ink-soft">{g.description}</p>
           </div>
-          <ul class="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
-            {g.items.map((i) => (
-              <li class="mb-3 flex min-w-0 items-baseline justify-between gap-3 border-b border-line/70 pb-3 text-[15px]">
-                {i.url ? (
-                  <a href={i.url} target="_blank" rel="noopener" class="truncate transition-colors hover:text-brand">{i.name}</a>
-                ) : (
-                  <span class="truncate">{i.name}</span>
-                )}
-                <span class="shrink-0 text-[12px] tabular-nums text-ink-soft">
-                  {i.status === "Exited" ? "Exited · " : ""}{i.year ?? ""}
-                </span>
-              </li>
+          <div class="space-y-6">
+            {g.years.map((y) => (
+              <div>
+                <p class="text-[12px] tabular-nums text-ink-soft">{y.year ?? "Undated"}</p>
+                <ul class="mt-1 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
+                  {y.items.map((i) => (
+                    <li class="border-b border-line/70 py-2 text-[15px]">
+                      {i.url ? (
+                        <a
+                          href={i.url}
+                          target="_blank"
+                          rel="noopener"
+                          class="underline decoration-line underline-offset-4 transition-colors hover:text-brand hover:decoration-brand"
+                        >
+                          {i.name}
+                        </a>
+                      ) : (
+                        <span>{i.name}</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       ))}
     </div>

@@ -3,38 +3,17 @@ import { site } from "../data/site";
 const year = new Date().getFullYear();
 ---
 
-<footer id="contact" class="border-t border-line bg-paper-2">
-  <div class="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-8 md:grid-cols-[1.4fr_1fr_1fr]">
-    <div>
-      <div class="flex items-center gap-4">
-        <img src="/brand/tree.svg" alt="" width="64" height="64" class="brand-mark h-16 w-16" />
-        <span class="wordmark text-[26px] leading-[1.02]">
-          <b>First Generation</b><br />Capital<span class="text-brand">.</span>
-        </span>
-      </div>
+<footer class="border-t border-line bg-paper-2">
+  <div class="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-10 text-[13px] text-ink-soft sm:px-8 md:flex-row md:items-center md:justify-between">
+    <div class="flex items-center gap-3 text-ink">
+      <img src="/brand/tree.svg" alt="" width="32" height="32" class="h-8 w-8" />
+      <span class="wordmark text-[18px]"><b>First Generation</b> Capital<span class="text-brand">.</span></span>
     </div>
-    <div>
-      <p class="eyebrow">Get in touch</p>
-      <ul class="mt-4 space-y-3 text-[15px]">
-        <li>
-          <a href={site.contactUrl} target="_blank" rel="noopener" class="underline-offset-4 hover:underline">
-            Contact form ↗
-          </a>
-        </li>
-        <li>
-          <a href={site.linkedin} target="_blank" rel="noopener" class="underline-offset-4 hover:underline">
-            LinkedIn ↗
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <p class="eyebrow">Legal</p>
-      <ul class="mt-4 space-y-3 text-[15px]">
-        <li><a href="/terms/" class="underline-offset-4 hover:underline">Terms of Use</a></li>
-        <li><a href="/privacy/" class="underline-offset-4 hover:underline">Privacy Policy</a></li>
-      </ul>
-    </div>
+    <nav class="flex flex-wrap gap-x-6 gap-y-2">
+      <a href={site.linkedin} target="_blank" rel="noopener" class="hover:text-ink">LinkedIn</a>
+      <a href="/terms/" class="hover:text-ink">Terms of Use</a>
+      <a href="/privacy/" class="hover:text-ink">Privacy Policy</a>
+    </nav>
   </div>
   <div class="border-t border-line">
     <div class="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-6 text-[12px] text-ink-soft sm:flex-row sm:items-center sm:justify-between sm:px-8">
